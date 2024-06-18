@@ -13,6 +13,7 @@ import lombok.ToString;
 @ToString
 public class CardDTO {
 	private int id;
+	private String url;
 	private String name;
 	private int price;
 }
