@@ -11,10 +11,9 @@ import lombok.ToString;
 @NoArgsConstructor
 @Builder
 @ToString
-public class UserDTO {
+public class CardDTO {
 	private int id;
+	private String url;
 	private String name;
-	private String password;
-	private String nickname;
-	private int point;
+	private int price;
 }
